@@ -1,0 +1,30 @@
+{
+  "name": "simple-timeago.handle-bad-input",
+  "version": "1.0.0",
+  "description": "simple-timeago wrapper that returns \"???\" instead of throwing up if you give it something truthy that is not a Date object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smallhelm/simple-timeago.handle-bad-input.git"
+  },
+  "keywords": [
+    "timeago",
+    "date"
+  ],
+  "author": "smallhelm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smallhelm/simple-timeago.handle-bad-input/issues"
+  },
+  "homepage": "https://github.com/smallhelm/simple-timeago.handle-bad-input#readme",
+  "devDependencies": {
+    "tape": "^4.2.1"
+  },
+  "dependencies": {
+    "lodash.isdate": "^3.0.1",
+    "simple-timeago": "^1.0.0"
+  }
+}
